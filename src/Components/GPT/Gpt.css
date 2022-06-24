@@ -1,0 +1,72 @@
+#Gpt{
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(324deg, rgba(0, 255, 235, 1) 0%, rgba(13, 38, 103, 1) 13%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(324deg, rgba(0, 255, 235, 1) 0%, rgba(13, 38, 103, 1) 13%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(324deg, rgba(0, 255, 235, 1) 0%, rgba(13, 38, 103, 1) 13%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFEB', endColorstr='#0D2667', GradientType=1 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(324deg, rgba(0, 255, 235, 1) 0%, rgba(13, 38, 103, 1) 13%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(324deg, rgba(0, 255, 235, 1) 0%, rgba(13, 38, 103, 1) 13%);
+
+width: 94%;
+margin: 0% auto;
+margin-bottom: 40px!important;
+
+}
+
+#Gpt .line::before{
+  content: ' ';
+  background-color: red;
+/*  background:linear-gradient(90deg, rgba(103, 58, 183, 1) 0%, rgba(255, 193, 7, 1) 96%);*/
+  width: 30px;
+  height: 30px;
+}
+
+#Gpt div:first-child {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+}
+
+#Gpt div:first-child .line{
+  width: 10%;
+  color: white;
+}
+
+#Gpt div:first-child p:last-child {
+          width: 60%;
+}
+
+#Gpt div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+#Gpt h1 {
+  background:linear-gradient(90deg, rgba(103, 58, 183, 1) 0%, rgba(255, 193, 7, 1) 96%);
+  background-clip: text;
+  background-color: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#Gpt div:last-child {
+     
+}
+
+#Gpt div:last-child div {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  text-align: left;
+}

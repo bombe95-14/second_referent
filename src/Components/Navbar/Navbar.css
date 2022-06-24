@@ -1,0 +1,107 @@
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin-bottom: 0%!important;
+    margin: auto;
+    background: radial-gradient(circle at 3% 25%, rgba(0,40,83,1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+
+#nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sansimage h1{
+/*    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 51%) ;*/
+    background:linear-gradient(90deg, rgba(103, 58, 183, 1) 0%, rgba(255, 193, 7, 1) 96%);
+    background-clip: text;
+    background-color: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nav ul li{
+    color: white;
+    margin-right: 15px;
+}
+
+#nav div a{ margin-left: 15px; padding: 8px 5px; background-color: tomato; color: white; }
+
+#nav ul li a{
+    color: white;     
+    text-decoration : none;
+}
+
+#header #left{
+   width: 92.3%;
+   
+   margin: 0px auto;  
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: radial-gradient(circle at 3% 25%, rgba(0,40,83,1) 0%, rgba(4, 12, 24, 1) 100%);
+/*   border-image: repeating-linear-gradient(288deg, #f20202 49%, #ffffff 51%, #0400ff 66%);
+   border-image-slice: 10;*/
+   
+  /* -moz-linear-gradient (en haut, # 3acfd5 0%, # 3a4ed5 100%); -webkit-border-image: -webkit-linear-gradient (en haut, # 3acfd5 0%, # 3a4ed5 100%); border-image: linear-gradient (en bas, # 3acfd5 0%, # 3a4ed5 100%); */
+   padding: 10px;  
+}
+
+#header #left .sansimage {
+/*    border: 1px rebeccapurple solid;*/
+    margin-left: 0!important;
+    flex: 5;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+#header #left .sansimage input {
+    flex: 2;
+    background: #052D56;
+    font-size: 20px;
+    color: #3D6184;
+    line-height: 27px;
+}
+
+
+#header #left .sansimage a {
+    border: #052D56;
+    background-color: tomato;
+    height: 30px;
+    padding: 8px;
+}
+
+
+#header h1, #header p {
+    
+    margin-left: 0%;
+}
+
+#header #left img {
+    width: 50%;
+    margin-left: 20px;   
+    height: 600px;
+    float: right;
+ }
+
+#header ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 50px;  
+    color: grey;
+} 
+
+#header ul li a{  
+    color: grey;
+} 
+
+#header a{
+ text-decoration: none; 
+}

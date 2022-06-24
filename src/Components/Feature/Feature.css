@@ -1,0 +1,153 @@
+#feature{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0% auto;
+}
+
+#feature>div:first-child {
+/*    padding-top: -50;*/
+    width: 54%;
+    text-align: left;
+    margin-right: 3%;
+/*    border: 1px solid black;*/
+    margin-top: -40px;
+}
+
+#feature>div:first-child p {
+    background:linear-gradient(90deg, rgba(103, 58, 183, 1) 0%, rgba(255, 193, 7, 1) 96%);
+  background-clip: text;
+  background-color: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#feature div:last-child div {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin:  0 auto;
+}
+
+#feature div:last-child div p:first-child {
+    width: 50%;
+    margin-right: 200px;
+/*    border: 2px yellow solid;*/
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#feature .aft_bef::after {
+           content: ' ';
+           width: 40px;
+           height: 5px;
+           background: red; 
+           position: absolute;
+}
+
+
+.bar{
+   border: 2px gray solid;
+   padding: 15px;
+   width: 92%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-align: left;
+   margin-bottom: 5em!important;
+   background:linear-gradient(90deg, rgba(255, 193, 7, 1) 1%, rgba(238, 130, 238, 1) 100%);
+   border-radius: 15px;
+   margin-top: 2em;
+}
+
+.bar div span {
+    font-size: .8em;
+    color: wheat;
+}
+
+.bar a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 10px;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 18px;
+}
+
+.bar + div{
+/*    border: 2px black solid;*/
+    width: 92%;
+    margin: 0 auto;
+    
+    padding: 2%;
+    text-align: left;
+}
+
+.bar1 h1 {
+    font-size: 2.5em;
+    margin-top: -50px;
+}
+
+.bar1>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar1>div div:first-child {
+ 
+ color: white;
+ height: 500px;
+ width: 45%;
+ margin-left: 10px;   
+}
+
+.bar1 .utile div {
+background-color: rgb(5, 24, 53);
+padding: 20px;
+width: 87.5%;
+margin-top: -4px;
+}
+
+.utile::before, .bar1 .adroit>div::before{
+    content: '';
+    background-color: rgba(4, 12, 24, 1);
+    width: 30px; height: 20px;
+    position: absolute;
+    transform-origin: bottom left;
+    transform: rotate(-45deg) ;
+}
+
+.bar1 .adroit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+       row-gap: 25px;
+    column-gap: 20px;
+/*    border: 1px solid red;*/
+    width: 58%;
+}
+
+.bar1 .adroit .kid {
+    background-color: rgb(5, 24, 53);
+padding: 20px;
+width: inherit!important;
+margin-top: -4px;
+color: white;
+}
+
+#special {
+    max-height: 300px;
+    width: 92%;
+}
+
+
+.adoit>div {
+    
+}
+
+.bar1 h1 {
+    background:linear-gradient(90deg, rgba(103, 58, 183, 1) 0%, rgba(255, 193, 7, 1) 96%);
+    background-clip: text;
+    background-color: text;
+    -webkit-text-fill-color: transparent;
+}
